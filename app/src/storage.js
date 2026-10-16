@@ -3,7 +3,7 @@
  * device only. We never transmit anything. Users can also export/import a
  * session JSON file to move between devices or back up before clearing data.
  */
-const KEY = "influencercheck.session.v1";
+const KEY = "worth-the-follow.session.v1";
 
 export function loadSession() {
   try {

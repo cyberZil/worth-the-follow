@@ -1,4 +1,4 @@
-# Contributing to InfluencerCheck
+# Contributing to Worth the Follow
 
 Thanks for being here. There are three ways to contribute, in rough order of how many people can do
 them:

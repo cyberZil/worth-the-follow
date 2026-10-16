@@ -1,7 +1,7 @@
 # Why a lens, not a score
 
 Most "clean up your following" tools do one of two things: they rank accounts by engagement stats, or
-they automate unfollowing. InfluencerCheck does neither, on purpose.
+they automate unfollowing. Worth the Follow does neither, on purpose.
 
 ## The constraint that shaped everything
 

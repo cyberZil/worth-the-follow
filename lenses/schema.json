@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://influencercheck.dev/lens.schema.json",
-  "title": "InfluencerCheck Lens",
+  "$id": "https://cyberzil.github.io/worth-the-follow/lens.schema.json",
+  "title": "Worth the Follow Lens",
   "description": "A lens is a values filter expressed as concrete, observable signals. Lenses are applied by a human reviewer; the app never scores an account on its own.",
   "type": "object",
   "required": ["id", "name", "description", "signals", "reflection_prompt"],

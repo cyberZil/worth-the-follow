@@ -1,7 +1,7 @@
 id: entitlement
 name: Entitlement / Superiority Tone
 version: 1
-author: InfluencerCheck core
+author: Worth the Follow core
 description: Accounts that present themselves as above their audience or peers.
 signals:
   - Talks down to followers or other creators

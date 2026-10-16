@@ -1,7 +1,7 @@
 id: consumer-manipulation
 name: Manipulative Sales Tactics
 version: 1
-author: InfluencerCheck core
+author: Worth the Follow core
 description: Accounts that pressure followers into buying or engaging.
 signals:
   - Urgency tactics ("you NEED this", "don't miss out")

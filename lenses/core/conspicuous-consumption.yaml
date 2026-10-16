@@ -1,7 +1,7 @@
 id: conspicuous-consumption
 name: Overconsumption / Flexing
 version: 1
-author: InfluencerCheck core
+author: Worth the Follow core
 description: Accounts whose main content is displaying purchases, wealth, or luxury as the point.
 signals:
   - Posts regularly feature price tags, hauls, or "look what I got" framing

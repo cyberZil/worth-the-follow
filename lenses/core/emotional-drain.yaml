@@ -1,7 +1,7 @@
 id: emotional-drain
 name: Emotional Drain / Drama Cycles
 version: 1
-author: InfluencerCheck core
+author: Worth the Follow core
 description: Accounts that leave the viewer tense, exhausted, or emotionally overloaded.
 signals:
   - Recurring drama cycles or conflict posts

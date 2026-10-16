@@ -18,7 +18,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["icon.svg"],
       manifest: {
-        name: "InfluencerCheck — Worth the Follow",
+        name: "Worth the Follow",
         short_name: "Worth the Follow",
         description: "Audit who you follow against your own values. Everything stays on your device.",
         theme_color: "#1b1a17",

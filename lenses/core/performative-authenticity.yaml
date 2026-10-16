@@ -1,7 +1,7 @@
 id: performative-authenticity
 name: Performative Authenticity
 version: 1
-author: InfluencerCheck core
+author: Worth the Follow core
 description: Accounts that present curated vulnerability or "realness" as a branding tactic.
 signals:
   - '"Raw" posts that are clearly staged or aestheticized'

@@ -1,10 +1,10 @@
-# InfluencerCheck — *Worth the Follow*
+# Worth the Follow
 
 **Audit who you follow against your own values. Everything stays on your device.**
 
 Your feed is made of the people you chose to follow. Over time that list fills up with accounts that
 flex money while the world burns, sell you something in every post, or just leave you more tired than
-when you opened the app. InfluencerCheck helps you walk through that list on purpose, one account at a
+when you opened the app. Worth the Follow helps you walk through that list on purpose, one account at a
 time, and decide — using filters *you* pick — who still deserves your attention.
 
 It does not unfollow anyone for you. That last step is yours, and that's the point.
@@ -57,6 +57,10 @@ Lenses live in [`lenses/`](lenses/) as plain YAML. The core pack ships with:
 [CONTRIBUTING.md](CONTRIBUTING.md). Lenses in other languages and lenses rooted in other cultures'
 values are especially welcome — the core pack reflects where the project started, not where it ends.
 
+## Live app
+
+https://cyberzil.github.io/worth-the-follow/ — open it on your phone and "Add to Home Screen".
+
 ## Running it locally
 
 ```bash
@@ -102,6 +106,6 @@ in other tools, articles and workshops.
 
 ---
 
-*Started by [Zil Montecinos Bonnet](https://github.com/) under the Munayni Technologies umbrella.
+*Started by [Zil Montecinos Bonnet](https://github.com/cyberZil) under the Munayni Technologies umbrella.
 Munay is love, Ayni is reciprocity — attention is a gift you give; this is a tool for giving it on
 purpose.*
