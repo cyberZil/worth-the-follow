@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://influencercheck.dev/lens.schema.json",
+  "title": "InfluencerCheck Lens",
+  "description": "A lens is a values filter expressed as concrete, observable signals. Lenses are applied by a human reviewer; the app never scores an account on its own.",
+  "type": "object",
+  "required": ["id", "name", "description", "signals", "reflection_prompt"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "kebab-case identifier; must match the file name."
+    },
+    "name": { "type": "string", "minLength": 3, "maxLength": 60 },
+    "version": { "type": "integer", "minimum": 1, "default": 1 },
+    "author": { "type": "string", "maxLength": 80 },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 300,
+      "description": "One or two sentences. Describe the pattern of content, never a type of person."
+    },
+    "signals": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 8,
+      "items": { "type": "string", "minLength": 10, "maxLength": 140 },
+      "description": "Observable things a reviewer can tick after looking at ~10 recent posts."
+    },
+    "counter_signals": {
+      "type": "array",
+      "maxItems": 8,
+      "items": { "type": "string", "minLength": 10, "maxLength": 140 },
+      "description": "Observable things that point the other way. Strongly encouraged: a lens without counter-signals reads as an accusation."
+    },
+    "reflection_prompt": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200,
+      "description": "A single question the reviewer answers for themselves. Phrase it as a question about the content or about the reviewer's own reaction."
+    },
+    "weight": {
+      "type": "string",
+      "enum": ["user-set"],
+      "description": "Always user-set. The app never ships default weights; the person decides how much each lens matters to them."
+    },
+    "tags": {
+      "type": "array",
+      "maxItems": 6,
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+      "default": "en",
+      "description": "BCP-47 language tag of the lens text."
+    }
+  }
+}

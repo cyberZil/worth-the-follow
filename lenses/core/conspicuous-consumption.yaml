@@ -1,0 +1,15 @@
+id: conspicuous-consumption
+name: Overconsumption / Flexing
+version: 1
+author: InfluencerCheck core
+description: Accounts whose main content is displaying purchases, wealth, or luxury as the point.
+signals:
+  - Posts regularly feature price tags, hauls, or "look what I got" framing
+  - Luxury goods are the subject, not incidental to the content
+  - Sponsored/affiliate content outnumbers everything else
+  - Travel/possessions are shown without any context beyond ownership
+counter_signals:
+  - Discloses sponsorships clearly and sparingly
+  - Content is about craft, skill, or community, with possessions incidental
+reflection_prompt: "After scrolling their last ~10 posts, what is this account mostly *about*?"
+weight: user-set

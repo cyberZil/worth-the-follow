@@ -1,0 +1,16 @@
+id: entitlement
+name: Entitlement / Superiority Tone
+version: 1
+author: InfluencerCheck core
+description: Accounts that present themselves as above their audience or peers.
+signals:
+  - Talks down to followers or other creators
+  - Uses guilt, drama, or emotional manipulation for engagement
+  - Complains about brand deals, pay, or "deserves more"
+  - Flaunts luxury as normal or expected
+counter_signals:
+  - Shows gratitude and humility
+  - Shares learning, process, or vulnerability without theatrics
+  - Engages respectfully with comments and criticism
+reflection_prompt: "Does this creator treat their audience like a community or a resource?"
+weight: user-set

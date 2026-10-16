@@ -1,0 +1,14 @@
+id: emotional-drain
+name: Emotional Drain / Drama Cycles
+version: 1
+author: InfluencerCheck core
+description: Accounts that leave the viewer tense, exhausted, or emotionally overloaded.
+signals:
+  - Recurring drama cycles or conflict posts
+  - Constant complaining or negativity
+  - Content that spikes anxiety or tension
+counter_signals:
+  - Neutral or uplifting tone
+  - Humor, education, or calm presence
+reflection_prompt: "How do I feel after scrolling their last 10 posts?"
+weight: user-set

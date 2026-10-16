@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="28" fill="#1b1a17"/>
+  <!-- diamond weave -->
+  <g fill="none" stroke="#e4b04a" stroke-width="5" stroke-linejoin="round">
+    <path d="M64 22 L96 64 L64 106 L32 64 Z"/>
+    <path d="M64 42 L80 64 L64 86 L48 64 Z"/>
+  </g>
+  <circle cx="64" cy="64" r="6" fill="#c8553d"/>
+</svg>

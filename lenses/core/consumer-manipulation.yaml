@@ -1,0 +1,15 @@
+id: consumer-manipulation
+name: Manipulative Sales Tactics
+version: 1
+author: InfluencerCheck core
+description: Accounts that pressure followers into buying or engaging.
+signals:
+  - Urgency tactics ("you NEED this", "don't miss out")
+  - Overuse of affiliate links or discount codes
+  - Sponsored content disguised as personal advice
+  - Emotional leverage to drive purchases
+counter_signals:
+  - Transparent sponsorships and clear labeling
+  - Balanced recommendations with pros/cons
+reflection_prompt: "Do I feel pressured or informed after viewing their content?"
+weight: user-set

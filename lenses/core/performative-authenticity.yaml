@@ -1,0 +1,14 @@
+id: performative-authenticity
+name: Performative Authenticity
+version: 1
+author: InfluencerCheck core
+description: Accounts that present curated vulnerability or "realness" as a branding tactic.
+signals:
+  - '"Raw" posts that are clearly staged or aestheticized'
+  - Emotional content used for engagement spikes
+  - Constant messaging about being "real" or "not like other influencers"
+counter_signals:
+  - Shows process, not just outcomes
+  - Shares imperfection without theatrics or monetization
+reflection_prompt: "Does their authenticity feel lived or performed?"
+weight: user-set

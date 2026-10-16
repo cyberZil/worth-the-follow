@@ -1,0 +1,9 @@
+node_modules/
+app/dist/
+app/dev-dist/
+app/src/lenses.generated.json
+.DS_Store
+*.log
+# never commit a real export
+following.json
+*-session.json

@@ -1,0 +1,26 @@
+{
+  "name": "influencercheck",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Audit who you follow against your own values. Runs entirely on your device.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "lenses": "node scripts/validate-lenses.mjs",
+    "dev": "npm run lenses && vite --config app/vite.config.js",
+    "build": "npm run lenses && vite build --config app/vite.config.js",
+    "preview": "vite preview --config app/vite.config.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "vite": "^6.0.0",
+    "vite-plugin-pwa": "^0.21.0",
+    "yaml": "^2.6.0"
+  }
+}
